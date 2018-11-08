@@ -1,0 +1,90 @@
+{
+  "build" : {
+    "host" : {
+      "canonicalHostName" : "deploy-p1ap-slave-181",
+      "hostAddress" : "10.3.53.181",
+      "hostName" : "deploy-p1ap-slave-181"
+    },
+    "os" : {
+      "arch" : "amd64",
+      "name" : "Linux",
+      "version" : "3.10.0-327.36.3.el7.x86_64"
+    },
+    "runtime" : {
+      "specification" : {
+        "name" : "Java Platform API Specification",
+        "vendor" : "Oracle Corporation",
+        "version" : "1.8"
+      },
+      "vendor" : "Oracle Corporation",
+      "vendorUrl" : "http://java.oracle.com/",
+      "version" : "1.8.0_60"
+    },
+    "scm" : {
+      "revision" : "7b3526d51df71c8b8f33bd5e943d014060488273",
+      "type" : "GIT",
+      "url" : "https://github.com/KualiCo/rice"
+    },
+    "timestamp" : 1518713192098,
+    "user" : "jenkins",
+    "vm" : {
+      "name" : "Java HotSpot(TM) 64-Bit Server VM",
+      "specification" : {
+        "name" : "Java Virtual Machine Specification",
+        "vendor" : "Oracle Corporation",
+        "version" : "1.8"
+      },
+      "vendor" : "Oracle Corporation",
+      "version" : "25.60-b23"
+    }
+  },
+  "project" : {
+    "coordinates" : {
+      "artifactId" : "rice-krad-web",
+      "groupId" : "org.kuali.rice",
+      "version" : "2.6.2"
+    },
+    "dependencies" : [ {
+      "artifactId" : "rice-krad-web-framework",
+      "exclusions" : [ ],
+      "groupId" : "org.kuali.rice",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.6.2"
+    }, {
+      "artifactId" : "org.eclipse.persistence.oracle",
+      "exclusions" : [ ],
+      "groupId" : "org.eclipse.persistence",
+      "optional" : false,
+      "scope" : "COMPILE",
+      "systemPath" : null,
+      "type" : "jar",
+      "version" : "2.6.4"
+    } ],
+    "description" : "The Kuali Rice effort provides an enterprise class middleware suite of integrated products that allows\n    both Kuali and non-Kuali applications\n    to be built in an agile fashion, such that developers will be able to\n    react to\n    end-user business requirements in an efficient and productive manner, so\n    that they can produce high\n    quality business\n    applications.",
+    "encoding" : "UTF-8",
+    "inceptionYear" : "2005",
+    "licenses" : [ {
+      "comments" : null,
+      "name" : "Educational Community License, Version 2.0",
+      "url" : "http://maven.kuali.org/external/org/opensource/ecl/2.0/ecl-2.0.txt"
+    } ],
+    "name" : "Rice KRAD Web",
+    "packaging" : "war",
+    "parent" : {
+      "artifactId" : "rice-framework",
+      "groupId" : "org.kuali.rice",
+      "version" : "2.6.2"
+    },
+    "properties" : { },
+    "scm" : {
+      "connection" : "scm:git:git@github.com:KualiCo/rice.git/rice-framework/rice-krad-web",
+      "developerConnection" : "scm:git:git@github.com:KualiCo/rice.git/rice-framework/rice-krad-web",
+      "tag" : "rice-2.6.2",
+      "url" : "https://github.com/KualiCo/rice/tree/rice-2.6.2/rice-framework/rice-krad-web"
+    },
+    "url" : "http://site.kuali.org/rice/2.6.2/rice-framework/rice-krad-web"
+  }
+}
